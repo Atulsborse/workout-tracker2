@@ -22,8 +22,7 @@ export class WorkoutTrackerComponent implements OnInit {
   workouts: any[] = [];
   selectedUser: any = null;
   currentPage: number = 1;
-  itemsPerPage: number = 5;
-
+  itemsPerPage: number = 5; 
   workoutTypes = [
     'All',
     '🏃‍♂️Running',
